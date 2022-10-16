@@ -7,22 +7,25 @@ private:
 	string surname;
 	int age;
 	int experience;
-	int salary;
+	float salary;
+	float bonus;
 public:
 	Employee();
 	Employee(string surname1, int age1, int experience1, float salary1);
 	virtual ~Employee();
+	virtual float getBonus();
+	virtual void setBonus(float value);
 	virtual void show();
-	virtual int calculateSalary(int value);
+	virtual int calculateSalary(float value);
 	int ageEmployment();
+
 	void setSurname(string surname1);
 	string getSurname();
 	void setAge(int age1);
 	int getAge();
 	void setExperience(int experience1);
 	int getExperience();
-	void setSalary(int salary1);
-	int getSalary();
-
+	void setSalary(float salary1);
+	float getSalary();
 };
 
