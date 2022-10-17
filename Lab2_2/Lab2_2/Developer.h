@@ -8,6 +8,6 @@ public:
 	Developer(string surname1, int age1, int experience1, float salary1, float bonus1);
 	~Developer();
 	float calculateBonus(int value);
-	//virtual float calculateSalary(float value) override;
+	virtual float calculateSalary(float value) override;
 };
 

@@ -6,14 +6,6 @@ void whoWorkMoreThan5Years(Employee* tab[], int n);
 void howManyEarnLessThanMeanBonus(Employee* tab[], int n);
 int main()
 {
-	/*Employee** tab;
-	tab = new Employee* [3];
-	for (int i = 0; i < 3; i++) {
-		tab[i] = new Developer("Kowalski", 20, 7, 4000, 0);
-		tab[i]->setBonus(i+1);
-		tab[i]->show();
-	}*/
-	int a = 4;
 	Employee* e[4];
 	e[0] = new Developer("Nowak", 30, 7, 4000, 3);
 	e[1] = new TeamLeader("Kowalski", 40, 15, 6000, 2);
@@ -24,14 +16,18 @@ int main()
 	e[1]->show();
 	e[0]->show();
 	cout << "=========================================================================" << endl;
-	whoWorkMoreThan5Years(e, a);
+	whoWorkMoreThan5Years(e, 4);
 	cout << "=========================================================================" << endl;
-	howManyEarnLessThanMeanBonus(e, a);
+	howManyEarnLessThanMeanBonus(e, 4);
 
+	for (int i = 0; i < 4; i++) {
+		delete e[i];
+	}
 	return 0;
 }
 
 void whoWorkMoreThan5Years(Employee* tab[], int n) {
+	cout << "Osoby z ponad 5 letnim doswiadczeniem: " << endl;
 	for (int i = 0; i < n; i++) {
 		if (tab[i]->getExperience() > 5) {
 			tab[i]->show();
@@ -40,14 +36,15 @@ void whoWorkMoreThan5Years(Employee* tab[], int n) {
 }
 
 void howManyEarnLessThanMeanBonus(Employee* tab[], int n) {
-	float temp = 0;
+	double temp = 0;
 	for (int i = 0; i < n; i++) {
-		temp += tab[i]->getSalary(); //calculateSalary(tab[i]->getBonus())
+		temp += tab[i]->calculateBonus(2);
 	}
 	temp /= n;
+	cout << "Srednia: "<< temp << endl;
 
 	for (int i = 0; i < n; i++) {
-		if (tab[i]->getBonus() < temp) {
+		if (tab[i]->getSalary() < temp) {
 			tab[i]->show();
 		}
 	}

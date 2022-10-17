@@ -58,5 +58,5 @@ float Employee::getBonus() {
 	return bonus;
 }
 void Employee::show() {
-	cout << "Nazwisko: " << getSurname() << " Wiek: " << getAge() << " Doœwiadczenie: " << getExperience() << " Zarobki: " << getSalary() << endl;
+	cout << "Nazwisko: " << getSurname() << " Wiek: " << getAge() << " Doswiadczenie: " << getExperience() << " Zarobki: " << getSalary() << endl;
 }

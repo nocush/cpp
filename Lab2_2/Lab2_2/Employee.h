@@ -11,12 +11,13 @@ private:
 	int bonus;
 public:
 	Employee();
-	Employee(string surname1, int age1, int experience1, float salary1, int bonus);
+	Employee(string surname1, int age1, int experience1, float salary1, int bonus1);
 	virtual ~Employee();
 	float getBonus();
 	void setBonus(float value);
 	void show();
-	//virtual float calculateSalary(float value);
+	virtual float calculateSalary(float value)=0;
+	virtual float calculateBonus(int bonus1) = 0;
 	int ageEmployment();
 
 	void setSurname(string surname1);
