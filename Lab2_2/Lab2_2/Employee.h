@@ -8,15 +8,15 @@ private:
 	int age;
 	int experience;
 	float salary;
-	float bonus;
+	int bonus;
 public:
 	Employee();
-	Employee(string surname1, int age1, int experience1, float salary1);
+	Employee(string surname1, int age1, int experience1, float salary1, int bonus);
 	virtual ~Employee();
-	virtual float getBonus();
-	virtual void setBonus(float value);
-	virtual void show();
-	virtual int calculateSalary(float value);
+	float getBonus();
+	void setBonus(float value);
+	void show();
+	//virtual float calculateSalary(float value);
 	int ageEmployment();
 
 	void setSurname(string surname1);

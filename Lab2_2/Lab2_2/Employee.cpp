@@ -4,11 +4,13 @@ Employee::Employee() {
 	cout << "Konstruktor klasy bazowej Employee" << endl;
 }
 
-Employee::Employee(string surname1, int age1, int experience1, float salary1) {
+Employee::Employee(string surname1, int age1, int experience1, float salary1, int bonus1) {
 	surname = surname1;
 	age = age1;
 	salary = salary1;
 	experience = experience1;
+	bonus - bonus1;
+	cout << "Konstruktor klasy Employee" << endl;
 }
 
 Employee::~Employee() {
@@ -48,4 +50,13 @@ float Employee::getSalary() {
 
 int Employee::ageEmployment() {
 	return age + experience;
+}
+void Employee::setBonus(float value) {
+	bonus = value;
+}
+float Employee::getBonus() {
+	return bonus;
+}
+void Employee::show() {
+	cout << "Nazwisko: " << getSurname() << " Wiek: " << getAge() << " Doœwiadczenie: " << getExperience() << " Zarobki: " << getSalary() << endl;
 }
