@@ -93,11 +93,15 @@ public:
 		}
 	}
 	string maximum() {
-		string temp = tab[0];
+		int temp = tab[0].length();
+		string temp2 = tab[0];
 		for (int i = 1; i < tabSize; i++) {
-			if (tab[i] > temp) temp = tab[i];
+			if (tab[i].length() > temp) {
+				temp = tab[i].length();
+				temp2 = tab[i];
+			};
 		}
-		return temp;
+		return temp2;
 	}
 };
 

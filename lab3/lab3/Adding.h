@@ -9,6 +9,7 @@ class Adding
 private:
     T element;
 public:
+    int minimum(T* tab[], int n);
     Adding(T value);
     void add(T value);
     void show();

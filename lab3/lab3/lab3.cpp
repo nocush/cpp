@@ -16,8 +16,8 @@ void showAll(T * tab[], int n)
     tab[i]->show();
 }
 template < typename T>
-T* minimum(T* tab[], int n) {
-    T* temp = tab[0];
+T minimum(T tab[], int n) {
+    T temp = tab[0];
     for (int i = 1; i < n; i++) {
         if (tab[i] < temp) temp = tab[i];
     }
@@ -47,28 +47,30 @@ int main()
     Array<string> arr2 = Array<string>(5);
     arr2.addElement("aaaaa");
     arr2.addElement("aaaa");
-    arr2.addElement("aaa");
+    arr2.addElement("aadasdsadsa");
     arr2.addElement("aa");
-    arr2.addElement("a");
+    arr2.addElement("z");
     arr2.showArray();
     cout << "=============================================" << endl;
     cout << "Maksymalna wartosc: " << arr2.maximum() << endl;
     cout << "=============================================" << endl;
     arr2.sort();
     arr2.showArray();
+    
 
 
-
-    /*
-    Adding<int>*arrAdd[3];
+    
+    /*Adding<int>* arrAdd[3];
     for (int i = 0; i < 3; i++){
         arrAdd[i] = new Adding<int>(i);
     }
+    cout << "Wartosc minimalna: " << endl;
     Adding<int>* min = minimum(arrAdd, 3);
     for (int i = 0; i < 3; i++) {
         if (arrAdd[i] == min) arrAdd[i]->show();
     }
-    //showAll(arrAdd, 3);
+    cout << "==========================================" << endl;
+    showAll(arrAdd, 3);
     Student<string>*arrStu[2];
     for (int i = 0; i < 2; i++) {
        arrStu[i] = new Student<string>(i + 2, "Ala");
