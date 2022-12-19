@@ -8,38 +8,43 @@ bool check(string imie1, string nazwisko1, string wiek1, string telefon1, string
     int temp = true;
     regex_search(imie1, res, namePattern);
     if (res.size() != 0) {
-        temp = true;
+        
     }
     else {
-        temp = false; return temp;
+        temp = false;
+        cout << "Bledne imie" << endl;
+
     }
     regex_search(nazwisko1, res, nazwPattern);
     if (res.size() != 0) {
-        temp = true;
+        
     }
     else {
-        temp = false; return temp;
+        temp = false;
+        cout << "Bledne nazwisko" << endl;
+
     }
     regex_search(wiek1, res, agePattern);
     if (res.size() != 0) {
-        temp = true;
+       
     }
     else {
-        temp = false; return temp;
+        temp = false;
+        cout << "Bledny wiek" << endl;
+
     }
     regex_search(telefon1, res, telPattern);
-    if (res.size() != 0) {
-        temp = true;
-    }
-    else {
-        temp = false; return temp;
+    if (res.size() == 0 || telefon1.size()!=9) {
+        temp = false;
+        cout << "Bledny numer telefonu" << endl;
     }
     regex_search(email1, res, emailPattern);
     if (res.size() != 0) {
-        temp = true;
+        
     }
     else {
-        temp = false; return temp;
+        temp = false;
+        cout << "Bledny email" << endl;
     }
     return temp;
 }
@@ -54,8 +59,8 @@ int main()
 
     smatch res;
 
-    regex namePattern("[A-z][a-z]+");
-    regex nazwPattern("[A-z][a-z]+(-[A-Z]?[a-z]+)?");
+    regex namePattern("[A-Z][a-z]+");
+    regex nazwPattern("[A-Z][a-z]+(-[A-Z]?[a-z]+)?");
     regex agePattern("[0-99]");
     regex telPattern("[1-9][0-9]{8}");
     regex emailPattern("[A-za-z]([A-za-z]|[0-9]|_|-|\\.)*@([A-za-z]|[0-9])+\\.(com|pl|org)");
