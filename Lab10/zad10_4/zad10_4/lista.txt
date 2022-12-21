@@ -2,3 +2,4 @@ Mateusz;Bartoszek;21;786896386;mateusz.bartoszek1@gmail.com;
 Anna;Rubik-Abacka;37;123123123;a._backa@wp.pl;
 Anna;Kowalska-Nowak;28;987654322;Nowak_-.k@onet.pl;
 Krzysztof;Madej;49;987987982;MKrzysztof@gmail.com;
+Adam;Abacki;24;999999999;Abacki@gmail.com;

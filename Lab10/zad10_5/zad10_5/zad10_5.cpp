@@ -45,7 +45,7 @@ int main()
 	while (!file.eof()) {
 		getline(file, name, ';');
 		int temp = names.count(name);
-		if (temp == 0) {
+		if (temp == 0 && name.size()>1) {
 			names.insert(pair<string, int>(name, 1));
 		}
 		else {

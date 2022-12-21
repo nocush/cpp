@@ -5,7 +5,7 @@
 using namespace std;
 
 bool check(string imie1, string nazwisko1, string wiek1, string telefon1, string email1, regex namePattern, regex nazwPattern, regex agePattern, regex telPattern, regex emailPattern, smatch res) {
-    int temp = true;
+    bool temp = true;
     regex_search(imie1, res, namePattern);
     if (res.size() != 0) {
         

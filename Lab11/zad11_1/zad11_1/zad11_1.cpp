@@ -17,10 +17,12 @@ public:
 
 class BufferArr : public Buffer {
 private:
-    int tab;
+    int *tab;
     int n;
 public:
-
+    BufferArr(int n1) {
+        tab = new int[n1];
+    }
 };
 
 int main()
