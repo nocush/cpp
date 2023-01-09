@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ff366e73-4bcd-4384-b3e5-b2efccef464b}</ProjectGuid>
-    <RootNamespace>Zad111</RootNamespace>
+    <ProjectGuid>{fa691cba-0162-45fa-b022-799ed5c7631a}</ProjectGuid>
+    <RootNamespace>Zad112</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Buffer.cpp" />
-    <ClCompile Include="BufferArr.cpp" />
-    <ClCompile Include="BufferFile.cpp" />
-    <ClCompile Include="Zad11_1.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="Warehouse.cpp" />
+    <ClCompile Include="Zad11_2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Buffer.h" />
-    <ClInclude Include="BufferArr.h" />
-    <ClInclude Include="BufferFile.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="Warehouse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
