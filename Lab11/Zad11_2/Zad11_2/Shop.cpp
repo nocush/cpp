@@ -4,7 +4,7 @@ Shop::Shop(std::string name) : name_(std::move(name)) {}
 
 void Shop::addWarehouse(const std::shared_ptr<Warehouse>& warehouse) {
     warehouses_.push_back(warehouse);
-    std::cout << "Added warehouse with " << warehouse->getArticleName() << " to shop " << getName() << std::endl;
+    std::cout << "Added warehouse with " << warehouse->getArticleName() << " to " << getName() << std::endl;
 }
 
 void Shop::printWarehouses() {

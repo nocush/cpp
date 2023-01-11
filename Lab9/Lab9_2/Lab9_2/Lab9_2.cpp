@@ -12,9 +12,9 @@ void task_2();
 void task_3();
 
 int main() {
-       // task_1();
-        task_2();
-    //task_3();
+       //task_1();
+       // task_2();
+    task_3();
 }
 
 void task_3() {

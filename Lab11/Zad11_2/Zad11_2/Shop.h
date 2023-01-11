@@ -17,7 +17,7 @@ public:
 
     bool sellStock(const std::string& stockName, int count);
 
-    [[nodiscard]] const std::string& getName() const;
+    const std::string& getName() const;
 
     virtual ~Shop();
 };
