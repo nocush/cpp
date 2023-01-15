@@ -1,0 +1,27 @@
+# ninja log v5
+2	1037	6955083274035933	lab7_autogen/timestamp	ab185a66b089ca69
+2	1037	6955083274035933	lab7_autogen/mocs_compilation.cpp	ab185a66b089ca69
+2	1037	6955083274035933	D:/GitHub/cpp/lab7/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/timestamp	ab185a66b089ca69
+2	1037	6955083274035933	D:/GitHub/cpp/lab7/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/mocs_compilation.cpp	ab185a66b089ca69
+1043	3363	6955083300118312	CMakeFiles/lab7.dir/zad3.cpp.obj	c6784f0399f60aac
+1038	3659	6955083303096021	CMakeFiles/lab7.dir/lab7_autogen/mocs_compilation.cpp.obj	c3c86748f43aea1c
+1045	3743	6955083303936484	CMakeFiles/lab7.dir/mainwindow3.cpp.obj	40ad26c6356e193e
+1040	4449	6955083310955376	CMakeFiles/lab7.dir/main.cpp.obj	898a59fd4118a969
+1049	4886	6955083315339176	CMakeFiles/lab7.dir/mainwindow.cpp.obj	ac923cc0d46822a0
+4887	5900	6955083325436313	lab7.exe	6717e4a9fbf8146a
+12	396	6955086335768758	lab7_autogen/timestamp	ab185a66b089ca69
+12	396	6955086335768758	lab7_autogen/mocs_compilation.cpp	ab185a66b089ca69
+12	396	6955086335768758	D:/GitHub/cpp/lab7/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/timestamp	ab185a66b089ca69
+12	396	6955086335768758	D:/GitHub/cpp/lab7/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/mocs_compilation.cpp	ab185a66b089ca69
+402	2960	6955086361402161	CMakeFiles/lab7.dir/mainwindow3.cpp.obj	40ad26c6356e193e
+399	3735	6955086369121174	CMakeFiles/lab7.dir/main.cpp.obj	898a59fd4118a969
+405	4198	6955086373755895	CMakeFiles/lab7.dir/mainwindow.cpp.obj	ac923cc0d46822a0
+4198	5298	6955086384735907	lab7.exe	6717e4a9fbf8146a
+15	469	6955086509973903	lab7_autogen/timestamp	ab185a66b089ca69
+15	469	6955086509973903	lab7_autogen/mocs_compilation.cpp	ab185a66b089ca69
+15	469	6955086509973903	D:/GitHub/cpp/lab7/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/timestamp	ab185a66b089ca69
+15	469	6955086509973903	D:/GitHub/cpp/lab7/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/mocs_compilation.cpp	ab185a66b089ca69
+474	3076	6955086535777141	CMakeFiles/lab7.dir/mainwindow3.cpp.obj	40ad26c6356e193e
+472	3991	6955086545144668	CMakeFiles/lab7.dir/main.cpp.obj	898a59fd4118a969
+477	4438	6955086549613625	CMakeFiles/lab7.dir/mainwindow.cpp.obj	ac923cc0d46822a0
+4438	5496	6955086560183501	lab7.exe	6717e4a9fbf8146a

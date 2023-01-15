@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f52482d0eb8ad132cb44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LAab7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LAab7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAab7-Debug-361ea228586a7265fb06.json",
+					"name" : "LAab7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LAab7_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAab7_autogen-Debug-b72ed56b48afb291de06.json",
+					"name" : "LAab7_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LAab7_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAab7_autogen_timestamp_deps-Debug-065a3fa15985bb5e410b.json",
+					"name" : "LAab7_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/GitHub/cpp/lab7/2/build-LAab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "D:/GitHub/cpp/lab7/2/LAab7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
