@@ -1,0 +1,10 @@
+# ninja log v5
+1	1218	6955105273560476	lab7_autogen/timestamp	976b55c94b0f4a3a
+1	1218	6955105273560476	lab7_autogen/mocs_compilation.cpp	976b55c94b0f4a3a
+1	1218	6955105273560476	C:/Users/matim/Documents/GitHub/cpp/lab7/laptop/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/timestamp	976b55c94b0f4a3a
+1	1218	6955105273560476	C:/Users/matim/Documents/GitHub/cpp/lab7/laptop/build-lab7-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/lab7_autogen/mocs_compilation.cpp	976b55c94b0f4a3a
+1219	3641	6955105299884408	CMakeFiles/lab7.dir/lab7_autogen/mocs_compilation.cpp.obj	242977ed49643a20
+1237	3752	6955105301014113	CMakeFiles/lab7.dir/mainwindow3.cpp.obj	18c90d57808ea706
+1225	4654	6955105309995733	CMakeFiles/lab7.dir/main.cpp.obj	cb71c1bd10071b36
+1230	5264	6955105316088356	CMakeFiles/lab7.dir/mainwindow.cpp.obj	eb950e28b567470d
+5265	6001	6955105323422429	lab7.exe	4d97c56556f9b54f

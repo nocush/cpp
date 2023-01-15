@@ -10,15 +10,15 @@ private:
 public:
     Car(std::string modelName, int year, float engineDisplacement);
 
-    [[nodiscard]] const std::string& getModelName() const;
+    const std::string& getModelName() const;
 
     void setModelName(const std::string& modelName);
 
-    [[nodiscard]] int getYear() const;
+    int getYear() const;
 
     void setYear(int year);
 
-    [[nodiscard]] float getEngineDisplacement() const;
+    float getEngineDisplacement() const;
 
     void setEngineDisplacement(float engineDisplacement);
 

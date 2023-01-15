@@ -1,0 +1,21 @@
+# ninja log v5
+3	51	0	CMakeFiles/lab7_autogen	74e272ec09004a9b
+3	51	0	lab7_autogen/mocs_compilation.cpp	74e272ec09004a9b
+3	51	0	lab7_autogen/include/ui_mainwindow.h	74e272ec09004a9b
+3	51	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/lab7_autogen/mocs_compilation.cpp	74e272ec09004a9b
+3	51	0	lab7_autogen/include/ui_mainwindow3.h	74e272ec09004a9b
+3	51	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/CMakeFiles/lab7_autogen	74e272ec09004a9b
+3	51	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/lab7_autogen/include/ui_mainwindow3.h	74e272ec09004a9b
+3	51	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/lab7_autogen/include/ui_mainwindow.h	74e272ec09004a9b
+237	1527	6955099319836901	CMakeFiles/lab7.dir/lab7_autogen/mocs_compilation.cpp.obj	1c91b53a431f7caa
+250	1534	6955099319913369	CMakeFiles/lab7.dir/mainwindow3.cpp.obj	73466bd0c73b0d0f
+96	1290	6955100828285730	CMakeFiles/lab7.dir/main.cpp.obj	5bbb84d13bd16f75
+3	57	0	CMakeFiles/lab7_autogen	74e272ec09004a9b
+3	57	0	lab7_autogen/mocs_compilation.cpp	74e272ec09004a9b
+3	57	0	lab7_autogen/include/ui_mainwindow.h	74e272ec09004a9b
+3	57	0	lab7_autogen/include/ui_mainwindow3.h	74e272ec09004a9b
+3	57	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/CMakeFiles/lab7_autogen	74e272ec09004a9b
+3	57	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/lab7_autogen/mocs_compilation.cpp	74e272ec09004a9b
+3	57	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/lab7_autogen/include/ui_mainwindow.h	74e272ec09004a9b
+3	57	0	C:/Users/matim/Documents/GitHub/cpp/lab7/build-lab7-Desktop-Debug/lab7_autogen/include/ui_mainwindow3.h	74e272ec09004a9b
+58	1050	6955102830083131	CMakeFiles/lab7.dir/lab7_autogen/mocs_compilation.cpp.obj	1c91b53a431f7caa

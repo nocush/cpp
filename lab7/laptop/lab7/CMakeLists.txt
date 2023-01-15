@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+
 project(lab7 VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)
@@ -22,7 +23,6 @@ set(PROJECT_SOURCES
         mainwindow3.cpp
         mainwindow3.h
         mainwindow3.ui
-
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

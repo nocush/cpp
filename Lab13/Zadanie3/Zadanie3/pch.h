@@ -1,6 +1,5 @@
 #pragma once
-
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 #include <string>
 
 class BankAccount {
@@ -17,15 +16,15 @@ public:
 
     bool isMillionaire() const;
 
-    [[nodiscard]] const std::string& getLastName() const;
+    const std::string& getLastName() const;
 
     void setLastName(const std::string& lastName);
 
-    [[nodiscard]] const std::string& getAccountNumber() const;
+    const std::string& getAccountNumber() const;
 
     void setAccountNumber(const std::string& accountNumber);
 
-    [[nodiscard]] double getBalance() const;
+    double getBalance() const;
 
     void setBalance(double balance);
 };
