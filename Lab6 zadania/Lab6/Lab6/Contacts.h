@@ -47,9 +47,9 @@ public:
 
     bool changeStreetName(const std::string& street_name, const std::string& new_street_name);
 
-    [[nodiscard]] size_t adultsCount();
+    size_t adultsCount();
 
-    [[nodiscard]] size_t uniqueSurnamesCount();
+    size_t uniqueSurnamesCount();
 
     void show();
 };
