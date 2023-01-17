@@ -11,12 +11,14 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
@@ -65,6 +67,7 @@ public:
     QLabel *label_remove_kraj;
     QPushButton *button_sort_rosn;
     QPushButton *button_sort_mal;
+    QTableView *tableView;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -193,6 +196,9 @@ public:
         button_sort_mal = new QPushButton(centralwidget);
         button_sort_mal->setObjectName("button_sort_mal");
         button_sort_mal->setGeometry(QRect(640, 250, 91, 24));
+        tableView = new QTableView(centralwidget);
+        tableView->setObjectName("tableView");
+        tableView->setGeometry(QRect(340, 180, 256, 192));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");

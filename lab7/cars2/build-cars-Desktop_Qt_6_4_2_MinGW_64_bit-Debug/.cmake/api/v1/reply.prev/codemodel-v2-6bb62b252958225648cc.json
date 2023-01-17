@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5b15805e7ed1db4436bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cars",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cars::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cars-Debug-b385c2d8e6b3f2a2a155.json",
+					"name" : "cars",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cars_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cars_autogen-Debug-eea64b18cd824ebe6f54.json",
+					"name" : "cars_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cars_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cars_autogen_timestamp_deps-Debug-891758c22368842070c2.json",
+					"name" : "cars_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "D:/GitHub/cpp/lab7/cars2/cars"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

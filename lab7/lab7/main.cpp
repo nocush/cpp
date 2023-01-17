@@ -1,3 +1,4 @@
+#include "Catalog.h"
 #include "mainwindow.h"
 #include <QApplication>
 #include <QCoreApplication>
@@ -9,6 +10,7 @@
 #include <algorithm>
 
 using namespace std;
+
 
 template<typename T>
 void show(QVector<T> vec)
@@ -124,6 +126,8 @@ int main(int argc, char *argv[])
     cout << pangram("Amazingly few discotheques provide jukeboxes") << endl;
     cout << pangram("Amazingly few discotheques provide juice.") << endl;
     QApplication a(argc, argv);
+    qDebug()<<QSqlDatabase::drivers();
+    createConnection();
     MainWindow w;
     w.show();
     return a.exec();
