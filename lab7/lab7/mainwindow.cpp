@@ -20,9 +20,12 @@ Catalog c;
 
 void MainWindow::on_button_show_all_clicked()
 {
-    ui->output->setPlainText(QString::fromStdString(c.showCars()));
-}
+    QSqlQuery qry;
+    qry.prepare("select * from cars");
+    QSqlQueryModel modal;
+    modal.setQuery(qry);
 
+}
 void MainWindow::on_button_addCar_clicked()
 {
     c.addCar(Car(ui->mark->text().toStdString(), ui->model->text().toStdString(), ui->year->text().toInt(), ui->nrVIN->text().toStdString()));

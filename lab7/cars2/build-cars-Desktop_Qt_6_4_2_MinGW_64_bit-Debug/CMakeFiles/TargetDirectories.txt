@@ -1,0 +1,9 @@
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/cars.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/cars_autogen_timestamp_deps.dir
+D:/GitHub/cpp/lab7/cars2/build-cars-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/cars_autogen.dir
