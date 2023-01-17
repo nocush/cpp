@@ -121,7 +121,7 @@ bool pangram(string s)
 int main(int argc, char *argv[])
 {
     //example(argc, argv);
-    cout << pangram("Amazingly few discotheques provide jukeboxes") << endl;
+    cout << pangram("Amazingly few discotheques provide jukebo!es") << endl;
     cout << pangram("Amazingly few discotheques provide juice.") << endl;
     QApplication a(argc, argv);
     MainWindow w;
