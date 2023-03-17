@@ -32,7 +32,6 @@ int main()
 	set<string> domains;
 	map<string, int> names;
 
-
 	smatch res;
 	regex surPattern("[A-z][a-z]+-[A-Z][a-z]+");
 	regex domPattern("@([A-za-z]|[0-9])+\\.(com|pl|org)");
@@ -62,7 +61,7 @@ int main()
 		if (last == '0' || last == '2' || last == '4' || last == '6' || last == '8') {	
 			telnumbers.insert(tel);
 		}
-		getline(file, email, ';');
+		getline(file, email);
 		regex_search(email, res, domPattern);
 		if (res.size() != 0) {
 			domains.insert(res.str());

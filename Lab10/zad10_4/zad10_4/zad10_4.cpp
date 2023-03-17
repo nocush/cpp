@@ -78,10 +78,11 @@ int main()
 
     bool good = check(imie, nazwisko, wiek, telefon, email, namePattern, nazwPattern, agePattern, telPattern, emailPattern, res);
     if (good) {
-        ofstream fileOf("lista.txt", ios::app);
+        fstream fileOf("lista.txt", ios::app);
         if (fileOf.is_open()) {
-            fileOf << imie << ";" << nazwisko << ";" << wiek << ";" << telefon << ";" << email << ";" << endl;
+            fileOf << imie << ";" << nazwisko << ";" << wiek << ";" << telefon << ";" << email<< endl;
             fileOf.close();
+
             cout << "Dane zapisano do pliku lista.txt" << endl;
         }
         else cout << "Blad przy otwieraniu pliku" << endl;
